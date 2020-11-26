@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Josefin_Sans';
+  src: url('../Fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Josefin_Sans';
+  src: url('../Fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Josefin_Sans';
+  src: url('../Fonts/JosefinSans/josefinsans-light-webfont.woff2') format('woff2');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskerville';
+  src: url('../Fonts/Baskerville/baskervville-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Baskerville';
+  src: url('../Fonts/Baskerville/baskervville-italic-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  background-color: #F9F5F4;
+}
+
+h1.name {
+  color: #393E54;
+  font-family: 'Josefin_Sans';
+  font-size: 400%;
+  font-weight: bold;
+}
+
+h2.greeting {
+  color: #6A5B58;
+  font-family: 'Josefin_Sans';
+  font-size: 160%;
+}
+
+.navlist {
+  color: #393E54;
+  font-family: 'Josefin_Sans';
+  font-weight: normal;
+}
+
+.Logo {
+  width: 100px;
+  height: 100px;
+}
