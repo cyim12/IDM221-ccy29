@@ -1,3 +1,4 @@
+/*fonts*/
 @font-face {
   font-family: 'Josefin_Sans';
   src: url('../Fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
@@ -37,26 +38,63 @@ body {
   background-color: #F9F5F4;
 }
 
+.header {
+  background-color: #D4C6BD;
+  margin: 0;
+  padding: 0;
+}
+
 h1.name {
   color: #393E54;
   font-family: 'Josefin_Sans';
-  font-size: 400%;
+  font-size: 350%;
   font-weight: bold;
+  display: inline;
+  padding-left: 2rem;
 }
+
+ul.navlist {
+  color: #393E54;
+  display: inline;
+  list-style: none;
+  font-family: 'Josefin_Sans';
+  margin: 3rem;
+  position: relative;
+}
+
+.navlist li {
+  font-size: 1.4rem;
+  font-weight: bold;
+  display: inline;
+  padding: 1.2rem;
+}
+
+a {text-decoration: none;}
+
+a.portproj:link {color: #393E54;}
+a.portproj:visited {color: #393E54;}
+a.portproj:hover {color: #616887;}
+
+a.resume:link {color: #393E54;}
+a.resume:visited {color: #393E54;}
+a.resume:hover {color: #616887;}
+
+a.aboutme:link {color: #393E54;}
+a.aboutme:visited {color: #393E54;}
+a.aboutme:hover {color: #616887;}
 
 h2.greeting {
   color: #6A5B58;
   font-family: 'Josefin_Sans';
   font-size: 160%;
-}
-
-.navlist {
-  color: #393E54;
-  font-family: 'Josefin_Sans';
-  font-weight: normal;
+  margin: 3rem;
+  padding: 4rem;
+  max-width: 50rem;
 }
 
 .Logo {
   width: 100px;
   height: 100px;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
 }
