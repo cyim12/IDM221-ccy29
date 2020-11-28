@@ -42,13 +42,13 @@ body {
 .headerhome {
   background-color: #C2B6AD;
   margin: 0;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 .header {
   background-color: #C2B6AD;
   margin: 0;
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 h1.name {
@@ -58,7 +58,7 @@ h1.name {
   font-size: 350%;
   font-weight: bold;
   padding-left: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1.5rem;
 }
 
 nav {
@@ -69,6 +69,7 @@ ul.navlist {
   display: inline;
   list-style: none;
   font-family: 'Josefin_Sans';
+  font-weight: normal;
 }
 
 .navlist li {
@@ -105,7 +106,7 @@ h2.greeting {
   width: 100px;
   height: 100px;
   margin-left: 1.5rem;
-  margin-top: 1.5rem;
+  float: left;
 }
 
 .mainresume {
