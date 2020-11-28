@@ -36,37 +36,46 @@
 
 body {
   background-color: #F9F5F4;
+  margin: 0;
+}
+
+.headerhome {
+  background-color: #C2B6AD;
+  margin: 0;
+  padding-bottom: 2rem;
 }
 
 .header {
-  background-color: #D4C6BD;
+  background-color: #C2B6AD;
   margin: 0;
-  padding: 0;
+  padding-bottom: 2rem;
 }
 
 h1.name {
   color: #393E54;
+  display: inline;
   font-family: 'Josefin_Sans';
   font-size: 350%;
   font-weight: bold;
-  display: inline;
-  padding-left: 2rem;
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+nav {
+  padding: 1.2rem;
 }
 
 ul.navlist {
-  color: #393E54;
   display: inline;
   list-style: none;
   font-family: 'Josefin_Sans';
-  margin: 3rem;
-  position: relative;
 }
 
 .navlist li {
   font-size: 1.4rem;
-  font-weight: bold;
+  font-weight: normal;
   display: inline;
-  padding: 1.2rem;
+  padding: 1rem;
 }
 
 a {text-decoration: none;}
@@ -97,4 +106,47 @@ h2.greeting {
   height: 100px;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
+}
+
+.mainresume {
+  margin: 0.7rem;
+}
+
+h3 {
+  color: #393E54;
+  font-family: 'Josefin_Sans';
+  margin: 2rem;
+  padding-left: 3rem;
+  font-size: 1.6rem;
+}
+
+h3.name {
+  color: #393E54;
+  font-family: 'Josefin_Sans';
+  margin: 2rem;
+  padding-left: 0;
+  font-size: 2.5rem;
+}
+
+p.resume {
+  font-family: 'baskerville';
+  margin: 0.5rem;
+  padding-left: 5rem;
+}
+
+ul.resumelist {
+  font-family: 'baskerville';
+  padding-left: 7.5rem;
+  margin: 0.7rem;
+}
+
+h3.download {
+  float: left;
+  margin-right: 1rem;
+}
+
+.downloadlogo {
+  width: 20px;
+  height: 20px;
+  margin-top: 3rem;
 }
