@@ -97,9 +97,10 @@ a.aboutme:hover {color: #850009;}
 
 ul.portnav {
   list-style: none;
-  margin: 1rem;
-  padding-left: 4rem;
+  margin: 0.5rem;
+  padding-left: 2.2rem;
   font-family: 'Josefin_Sans';
+  width: 400px;
 }
 
 .portnav li {
@@ -125,7 +126,7 @@ h2.greeting {
   max-width: 50rem;
 }
 
-.mainresume, .mainaboutme {
+.mainresume, .mainaboutme, .mainportfolio {
   margin: 0.7rem;
   max-width: 700px;
 }
@@ -134,7 +135,6 @@ h3 {
   color: #393E54;
   font-family: 'Josefin_Sans';
   margin: 2rem;
-  padding-left: 2rem;
   font-size: 1.6rem;
 }
 
@@ -142,8 +142,20 @@ h3.name, h3.aboutme {
   color: #393E54;
   font-family: 'Josefin_Sans';
   margin: 1.5rem;
-  padding-left: 0;
+  padding-left: 2rem;
   font-size: 2.5rem;
+}
+
+h3.cstitles {
+  margin: 0rem;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.csimage, .awimage {
+  padding-left: 1.5rem;
+  width: 300px;
+  height: auto;
 }
 
 h4.navtitle {
