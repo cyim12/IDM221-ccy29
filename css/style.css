@@ -85,15 +85,37 @@ a {text-decoration: none;}
 
 a.portproj:link {color: #393E54;}
 a.portproj:visited {color: #393E54;}
-a.portproj:hover {color: #616887;}
+a.portproj:hover {color: #850009;}
 
 a.resume:link {color: #393E54;}
 a.resume:visited {color: #393E54;}
-a.resume:hover {color: #616887;}
+a.resume:hover {color: #850009;}
 
 a.aboutme:link {color: #393E54;}
 a.aboutme:visited {color: #393E54;}
-a.aboutme:hover {color: #616887;}
+a.aboutme:hover {color: #850009;}
+
+ul.portnav {
+  list-style: none;
+  margin: 1rem;
+  padding-left: 4rem;
+  font-family: 'Josefin_Sans';
+}
+
+.portnav li {
+  display: inline;
+  padding: 0.6rem;
+  background-color: #7b83aa;
+  border-radius: 18px;
+}
+
+a.projbutton:link {color: #F9F5F4;}
+a.projbutton:visited {color: #F9F5F4;}
+a.projbutton:hover {color: #202642;}
+
+a.aworkbutton:link {color: #F9F5F4;}
+a.aworkbutton:visited {color: #F9F5F4;}
+a.aworkbutton:hover {color: #202642;}
 
 h2.greeting {
   color: #6A5B58;
