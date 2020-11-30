@@ -83,9 +83,9 @@ ul.navlist {
 
 a {text-decoration: none;}
 
-a.portproj:link {color: #393E54;}
-a.portproj:visited {color: #393E54;}
-a.portproj:hover {color: #850009;}
+a.portcs:link {color: #393E54;}
+a.portcs:visited {color: #393E54;}
+a.portcs:hover {color: #850009;}
 
 a.resume:link {color: #393E54;}
 a.resume:visited {color: #393E54;}
@@ -109,9 +109,9 @@ ul.portnav {
   border-radius: 18px;
 }
 
-a.projbutton:link {color: #F9F5F4;}
-a.projbutton:visited {color: #F9F5F4;}
-a.projbutton:hover {color: #202642;}
+a.cstudybutton:link {color: #F9F5F4;}
+a.cstudybutton:visited {color: #F9F5F4;}
+a.cstudybutton:hover {color: #202642;}
 
 a.aworkbutton:link {color: #F9F5F4;}
 a.aworkbutton:visited {color: #F9F5F4;}
