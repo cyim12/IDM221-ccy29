@@ -144,9 +144,13 @@ h2.greeting {
   max-width: 50rem;
 }
 
-.mainresume, .mainaboutme {
+.mainresume {
   margin: 0.7rem;
   max-width: 700px;
+}
+
+.mainaboutme {
+  margin: 0.7rem;
 }
 
 .mainportfolio {
@@ -180,6 +184,10 @@ h3.cstitles, h3.awtitles {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#rodinimage {
+  margin-bottom: 9rem;
 }
 
 hr.solid {
@@ -249,14 +257,26 @@ h3.download {
   padding-bottom: 7rem;
 }
 
-.me_para {
-  padding: 1rem;
-  max-width: 700px;
+.meparagraphs {
+  text-align: left;
+  display: inline-block;
+  margin-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#para2 {
-  margin-bottom: 2rem;
-  padding-bottom: 7rem;
+.me_para {
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0rem;
+}
+
+.selfpic {
+  width: 275px;
+  display: inline;
+  padding-left: 5.5rem;
 }
 
 .logo {
