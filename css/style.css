@@ -149,11 +149,7 @@ h2.greeting {
   max-width: 700px;
 }
 
-.mainaboutme {
-  margin: 0.7rem;
-}
-
-.mainportfolio {
+.mainportfolio, .mainaboutme, .mainrodin, .mainteado {
   margin: 0.7rem;
 }
 
@@ -257,6 +253,10 @@ h3.download {
   padding-bottom: 7rem;
 }
 
+.aboutmebody {
+  margin-bottom: 9rem;
+}
+
 .meparagraphs {
   text-align: left;
   display: inline-block;
@@ -274,7 +274,7 @@ h3.download {
 }
 
 .selfpic {
-  width: 275px;
+  width: 200px;
   display: inline;
   padding-left: 5.5rem;
 }
@@ -285,4 +285,35 @@ h3.download {
   margin-left: 1rem;
   width: 90px;
   position: absolute;
+}
+
+.back {
+  font-family: 'Josefin_Sans';
+  font-size: 100%;
+  margin-left: 1.5rem;
+  font-weight: bold;
+}
+
+.roimage, .cardsort, .finaluirodin{
+  width: 275px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardsorting {
+  text-align: left;
+  margin-left: 3.5rem;
+}
+
+.rodinoverview, .problemstate, .users_aud {
+  font-family: 'Baskerville';
+  margin-left: 3.5rem;
+}
+
+h5 {
+  font-family: 'Josefin_Sans';
+  font-size: 120%;
+  font-weight: bold;
+  color: #202642;
 }
