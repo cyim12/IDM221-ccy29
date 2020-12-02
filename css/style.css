@@ -128,13 +128,13 @@ a.cstudybutton:link {color: #202642;}
 a.cstudybutton:visited {color: #202642;}
 a.cstudybutton:hover {color: #7D4E4B;
  background-color: #D4C6BD;
- border-radius: 20px;}
+ border-radius: 10px;}
 
 a.aworkbutton:link {color: #202642;}
 a.aworkbutton:visited {color: #202642;}
 a.aworkbutton:hover {color: #7D4E4B;
   background-color: #D4C6BD;
-  border-radius: 20px;}
+  border-radius: 10px;}
 
 h2.greeting {
   color: #6A5B58;
@@ -176,7 +176,7 @@ h3.cstitles, h3.awtitles {
 }
 
 .csimage, .awimage {
-  width: 400px;
+  width: 275px;
   display: block;
   margin-left: auto;
   margin-right: auto;
