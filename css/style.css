@@ -118,11 +118,10 @@ ul.portnav {
 
 .portnav li {
   padding: 0.5rem;
-  margin: 0.3rem;
-  border-radius: 18px;
   text-align: left;
   width: 190px;
   font-weight: bold;
+  border-left: 3px solid #202642;
 }
 
 a.cstudybutton:link {color: #202642;}
@@ -141,7 +140,7 @@ h2.greeting {
   color: #6A5B58;
   font-family: 'Josefin_Sans';
   font-size: 130%;
-  margin: 5rem;
+  margin: 5rem 5rem 9rem 5rem;
   max-width: 50rem;
 }
 
@@ -183,24 +182,32 @@ h3.cstitles, h3.awtitles {
   margin-right: auto;
 }
 
+hr.solid {
+  border-top: 1px solid #474c63;
+  max-width: 375px;
+}
+
 #drawings, #paintings {
-  padding: 0.2rem;
+  padding: 1rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
 #photography {
-  padding: 0.2rem;
+  padding: 1rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 9rem;
   text-align: center;
+}
+
+.last {
+  margin-bottom: 9rem;
 }
 
 .charcoal, .painting, .photo {
   vertical-align: middle;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 h4.navtitle {
@@ -208,7 +215,7 @@ h4.navtitle {
   font-family: 'Josefin_Sans';
   font-weight: normal;
   font-size: 75%;
-  margin: 5rem 1.5rem 1.5rem 1.5rem;
+  margin: 2rem 1.5rem 1.5rem 1.5rem;
 }
 
 p.resume, p.me_para {
