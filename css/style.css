@@ -110,11 +110,15 @@ ul.portnav {
 
 a.cstudybutton:link {color: #202642;}
 a.cstudybutton:visited {color: #202642;}
-a.cstudybutton:hover {color: #7D4E4B;}
+a.cstudybutton:hover {color: #7D4E4B;
+ background-color: #D4C6BD;
+ border-radius: 20px;}
 
 a.aworkbutton:link {color: #202642;}
 a.aworkbutton:visited {color: #202642;}
-a.aworkbutton:hover {color: #7D4E4B;}
+a.aworkbutton:hover {color: #7D4E4B;
+  background-color: #D4C6BD;
+  border-radius: 20px;}
 
 h2.greeting {
   color: #6A5B58;
@@ -124,9 +128,13 @@ h2.greeting {
   max-width: 50rem;
 }
 
-.mainresume, .mainaboutme, .mainportfolio {
+.mainresume, .mainaboutme {
   margin: 0.7rem;
   max-width: 700px;
+}
+
+.mainportfolio {
+  margin: 0.7rem;
 }
 
 h3 {
@@ -149,12 +157,14 @@ h3.cstitles, h3.awtitles {
   margin: 0rem;
   padding: 1.5rem;
   font-size: 1.6rem;
+
 }
 
 .csimage, .awimage {
-  padding-left: 1.5rem;
   width: 300px;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h4.navtitle {
@@ -211,4 +221,5 @@ h3.download {
   height: 75px;
   margin-left: 1.5rem;
   width: 90px;
+  position: absolute;
 }
