@@ -40,30 +40,27 @@ body {
 }
 
 .headerhome {
-  background-color: #C2B6AD;
-  margin: 0;
-  padding: 2rem 0;
+  margin: 2rem 0;
+  padding: 0;
 }
 
 .header {
-  background-color: #C2B6AD;
-  height: 85px;
-  margin: 0;
-  padding: 2rem 0;
+  margin: 2rem 0;
 }
 
 h1.name {
   color: #393E54;
   display: inline;
   font-family: 'Josefin_Sans';
-  font-size: 350%;
+  font-size: 250%;
   font-weight: bold;
   padding-left: 0.5rem;
-  padding-bottom: 1.5rem;
+  margin: 0;
 }
 
 nav {
   padding: 1.2rem;
+  text-align: center;
 }
 
 ul.navlist {
@@ -134,11 +131,12 @@ h2.greeting {
 h3 {
   color: #393E54;
   font-family: 'Josefin_Sans';
-  margin: 2rem;
+  margin: 1.5rem;
+  padding-left: 2rem;
   font-size: 1.6rem;
 }
 
-h3.name, h3.aboutme {
+h3.aboutme {
   color: #393E54;
   font-family: 'Josefin_Sans';
   margin: 1.5rem;
@@ -209,7 +207,7 @@ h3.download {
 
 .logo {
   float: left;
-  height: 90px;
+  height: 75px;
   margin-left: 1.5rem;
   width: 90px;
 }
