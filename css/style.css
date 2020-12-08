@@ -50,7 +50,6 @@ body {
 
 h1.name {
   color: #393E54;
-  display: inline;
   font-family: 'Josefin_Sans';
   font-size: 250%;
   font-weight: bold;
@@ -157,7 +156,7 @@ h3 {
   color: #393E54;
   font-family: 'Josefin_Sans';
   margin: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 0.5rem;
   font-size: 1.6rem;
 }
 
@@ -165,7 +164,7 @@ h3.aboutme {
   color: #393E54;
   font-family: 'Josefin_Sans';
   margin: 1.5rem;
-  padding-left: 2rem;
+  padding-left: 0.5rem;
   font-size: 2.5rem;
 }
 
@@ -219,18 +218,18 @@ h4.navtitle {
   font-family: 'Josefin_Sans';
   font-weight: normal;
   font-size: 75%;
-  margin: 2rem 1.5rem 1.5rem 1.5rem;
+  margin: 2rem 1.5rem 1.5rem 1rem;
 }
 
 p.resume, p.me_para {
   font-family: 'baskerville';
   margin: 0.5rem;
-  padding-left: 5rem;
+  padding-left: 3rem;
 }
 
 ul.resumelist {
   font-family: 'baskerville';
-  padding-left: 7.5rem;
+  padding-left: 5.5rem;
   margin: 0.7rem;
 }
 
@@ -244,12 +243,13 @@ h3.download {
   float: left;
   margin-right: 1rem;
   padding-bottom: 7rem;
+  font-size: 100%;
 }
 
 .downloadlogo {
-  width: 20px;
-  height: 20px;
-  margin-top: 3rem;
+  width: 18px;
+  height: 18px;
+  margin: 1.8rem 1.5rem 1.5rem 0;
   padding-bottom: 7rem;
 }
 
@@ -276,7 +276,7 @@ h3.download {
 .selfpic {
   width: 200px;
   display: inline;
-  padding-left: 5.5rem;
+  padding-left: 3.5rem;
 }
 
 .logo {
