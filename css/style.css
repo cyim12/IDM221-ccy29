@@ -1,67 +1,62 @@
-/*fonts*/
+/* FONTS */
+
 @font-face {
   font-family: 'Josefin_Sans';
-  src: url('../Fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
+  src: url('../fonts/JosefinSans/josefinsans-regular-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Josefin_Sans';
-  src: url('../Fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
+  src: url('../fonts/JosefinSans/josefinsans-bold-webfont.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Josefin_Sans';
-  src: url('../Fonts/JosefinSans/josefinsans-light-webfont.woff2') format('woff2');
+  src: url('../fonts/JosefinSans/josefinsans-light-webfont.woff2') format('woff2');
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Baskerville';
-  src: url('../Fonts/Baskerville/baskervville-regular-webfont.woff2') format('woff2');
+  src: url('../fonts/Baskerville/baskervville-regular-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Baskerville';
-  src: url('../Fonts/Baskerville/baskervville-italic-webfont.woff2') format('woff2');
+  src: url('../fonts/Baskerville/baskervville-italic-webfont.woff2') format('woff2');
   font-weight: normal;
   font-style: italic;
 }
+
+/* GENERAL */
 
 body {
   background-color: #faf8f7;
   margin: 0;
 }
 
-.headerhome {
-  margin: 2rem 0;
-  padding: 0;
-}
-
 .header {
   margin: 2rem 0;
 }
 
-h1.name {
-  color: #393E54;
-  font-family: 'Josefin_Sans';
-  font-size: 250%;
-  font-weight: bold;
-  margin-left: 7rem;
-  margin-top: 0;
-  display: inline-block;
+.logo {
+  float: left;
+  height: 75px;
+  margin-left: 1rem;
+  width: 90px;
+  position: absolute;
 }
 
 nav {
   padding: 1.2rem;
   text-align: center;
-
 }
 
 ul.navlist {
@@ -72,26 +67,11 @@ ul.navlist {
   padding-left: 0.6rem;
 }
 
-ul.homenavlist {
-  margin-top: 0rem;
-  list-style: none;
-  font-family: 'Josefin_Sans';
-  font-weight: normal;
-  padding-left: 0.6rem;
-}
-
 .navlist li {
   font-size: 1rem;
   font-weight: normal;
   display: inline;
-  padding: 0.4rem;
-}
-
-.homenavlist li {
-  font-size: 1rem;
-  font-weight: normal;
-  display: inline;
-  padding: 0.4rem;
+  padding: 0.6rem;
 }
 
 a {text-decoration: none;}
@@ -107,6 +87,63 @@ a.resume:hover {color: #850009;}
 a.aboutme:link {color: #393E54;}
 a.aboutme:visited {color: #393E54;}
 a.aboutme:hover {color: #850009;}
+
+h4.navtitle {
+  color: #850009;
+  font-family: 'Josefin_Sans';
+  font-weight: normal;
+  font-size: 75%;
+  margin: 2rem 1.5rem 1.5rem 0.75rem;
+}
+
+h3 {
+  color: #393E54;
+  font-family: 'Josefin_Sans';
+  margin: 1.25rem;
+  font-size: 1.6rem;
+}
+
+/* INDEX */
+
+.headerhome {
+  margin: 2rem 0;
+  padding: 0;
+}
+
+h1.name {
+  color: #393E54;
+  font-family: 'Josefin_Sans';
+  font-size: 250%;
+  font-weight: bold;
+  margin-left: 7rem;
+  margin-top: 0;
+  display: inline-block;
+}
+
+ul.homenavlist {
+  margin-top: 0rem;
+  list-style: none;
+  font-family: 'Josefin_Sans';
+  font-weight: normal;
+  padding-left: 0.6rem;
+}
+
+.homenavlist li {
+  font-size: 1rem;
+  font-weight: normal;
+  display: inline;
+  padding: 0.6rem;
+}
+
+h2.greeting {
+  color: #6A5B58;
+  font-family: 'Josefin_Sans';
+  font-size: 130%;
+  margin: 5rem 5rem 9rem 5rem;
+  max-width: 50rem;
+}
+
+/* PORTFOLIO */
 
 ul.portnav {
   list-style: none;
@@ -126,59 +163,31 @@ ul.portnav {
 a.cstudybutton:link {color: #202642;}
 a.cstudybutton:visited {color: #202642;}
 a.cstudybutton:hover {color: #7D4E4B;
- background-color: #D4C6BD;
- border-radius: 10px;}
+                      background-color: #D4C6BD;
+                      border-radius: 10px;}
 
 a.aworkbutton:link {color: #202642;}
 a.aworkbutton:visited {color: #202642;}
 a.aworkbutton:hover {color: #7D4E4B;
-  background-color: #D4C6BD;
-  border-radius: 10px;}
-
-h2.greeting {
-  color: #6A5B58;
-  font-family: 'Josefin_Sans';
-  font-size: 130%;
-  margin: 5rem 5rem 9rem 5rem;
-  max-width: 50rem;
-}
-
-.mainresume {
-  margin: 0.7rem;
-  max-width: 700px;
-}
-
-.mainportfolio, .mainaboutme, .mainrodin, .mainteado {
-  margin: 0.7rem;
-}
-
-h3 {
-  color: #393E54;
-  font-family: 'Josefin_Sans';
-  margin: 1.25rem;
-  font-size: 1.6rem;
-}
-
-h3.aboutme {
-  color: #393E54;
-  font-family: 'Josefin_Sans';
-  margin: 1.5rem;
-  padding-left: 0.5rem;
-  font-size: 2.5rem;
-}
+                     background-color: #D4C6BD;
+                     border-radius: 10px;}
 
 h3.cstitles, h3.awtitles {
   margin: 0rem;
   padding: 3rem 1.5rem;
   font-size: 1.6rem;
-}
-
+  }
+                    
 .csimage, .awimage {
   width: 325px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-left: 2rem;
+}
+
+.mainportfolio, .mainaboutme, .mainrodin, .mainteado {
+  margin: 0.7rem;
 }
 
 #teadoimage {
@@ -188,6 +197,11 @@ h3.cstitles, h3.awtitles {
 hr.solid {
   border-top: 1px solid #474c63;
   max-width: 375px;
+}
+
+.charcoal, .painting, .photo {
+  vertical-align: middle;
+  margin: 0.5rem;
 }
 
 #drawings, #paintings {
@@ -208,23 +222,42 @@ hr.solid {
   margin-bottom: 9rem;
 }
 
-.charcoal, .painting, .photo {
-  vertical-align: middle;
-  margin: 0.5rem;
-}
-
-h4.navtitle {
-  color: #850009;
+h5 {
   font-family: 'Josefin_Sans';
-  font-weight: normal;
-  font-size: 75%;
-  margin: 2rem 1.5rem 1.5rem 0.75rem;
+  font-size: 120%;
+  font-weight: bold;
+  color: #202642;
 }
 
-p.resume, p.me_para {
-  font-family: 'baskerville';
-  margin: 0.5rem;
-  padding-left: 2rem;
+.back {
+  font-family: 'Josefin_Sans';
+  font-size: 100%;
+  margin-left: 1.5rem;
+  font-weight: bold;
+}
+
+.cardsort, .finaluirodin{
+  width: 275px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardsorting {
+  text-align: left;
+  margin-left: 3.5rem;
+}
+
+.rodinoverview, .problemstate, .users_aud {
+  font-family: 'Baskerville';
+  margin-left: 3.5rem;
+}
+
+/* RESUME */
+
+.mainresume {
+  margin: 0.7rem;
+  max-width: 700px;
 }
 
 ul.resumelist {
@@ -233,10 +266,10 @@ ul.resumelist {
   margin: 0.5rem;
 }
 
-#personalinfo li {
-  list-style: none;
+p.resume, p.me_para {
   font-family: 'baskerville';
-  padding-left: 3rem;
+  margin: 0.5rem;
+  padding-left: 2rem;
 }
 
 h3.download {
@@ -251,6 +284,16 @@ h3.download {
   height: 18px;
   margin: 1.8rem 1.5rem 1.5rem 0;
   padding-bottom: 7rem;
+}
+
+/* ABOUT ME */
+
+h3.aboutme {
+  color: #393E54;
+  font-family: 'Josefin_Sans';
+  margin: 1.5rem;
+  padding-left: 0.5rem;
+  font-size: 2.5rem;
 }
 
 .aboutmebody {
@@ -271,43 +314,4 @@ h3.download {
 
 .me_para {
   text-align: left;
-}
-
-.logo {
-  float: left;
-  height: 75px;
-  margin-left: 1rem;
-  width: 90px;
-  position: absolute;
-}
-
-.back {
-  font-family: 'Josefin_Sans';
-  font-size: 100%;
-  margin-left: 1.5rem;
-  font-weight: bold;
-}
-
-.roimage, .cardsort, .finaluirodin{
-  width: 275px; 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.cardsorting {
-  text-align: left;
-  margin-left: 3.5rem;
-}
-
-.rodinoverview, .problemstate, .users_aud {
-  font-family: 'Baskerville';
-  margin-left: 3.5rem;
-}
-
-h5 {
-  font-family: 'Josefin_Sans';
-  font-size: 120%;
-  font-weight: bold;
-  color: #202642;
 }
