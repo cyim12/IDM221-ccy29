@@ -62,7 +62,7 @@ nav {
 ul.navlist {
   margin-top: 3.5rem;
   list-style: none;
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-weight: normal;
   padding-left: 0.6rem;
 }
@@ -98,7 +98,7 @@ h4.navtitle {
 
 h3 {
   color: #393E54;
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
   margin: 1.25rem;
   font-size: 1.6rem;
 }
@@ -112,7 +112,7 @@ h3 {
 
 h1.name {
   color: #393E54;
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-size: 250%;
   font-weight: bold;
   margin-left: 7rem;
@@ -123,7 +123,7 @@ h1.name {
 ul.homenavlist {
   margin-top: 0rem;
   list-style: none;
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-weight: normal;
   padding-left: 0.6rem;
 }
@@ -137,7 +137,7 @@ ul.homenavlist {
 
 h2.greeting {
   color: #6A5B58;
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-size: 130%;
   margin: 5rem 5rem 9rem 5rem;
   max-width: 50rem;
@@ -149,7 +149,7 @@ ul.portnav {
   list-style: none;
   margin: 0.5rem;
   padding-left: 2.2rem;
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
 }
 
 .portnav li {
@@ -222,35 +222,47 @@ hr.solid {
   margin-bottom: 9rem;
 }
 
+.back {
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
+  font-size: 90%;
+  margin-left: 1.3rem;
+  font-weight: bold;
+}
+
+a.back:link {color: #454d70;}
+a.back:visited {color: #454d70;}
+a.back:hover {color: #7D4E4B;}
+
 h5 {
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-size: 120%;
   font-weight: bold;
   color: #202642;
 }
 
-.back {
-  font-family: 'Josefin_Sans';
-  font-size: 100%;
-  margin-left: 1.5rem;
-  font-weight: bold;
+h5.subtitle {
+  text-align: center;
+  padding: 1rem;
 }
 
-.cardsort, .finaluirodin{
-  width: 275px; 
+.cardsort, .finaluirodin {
+  width: 325px; 
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.cardsorting {
-  text-align: left;
-  margin-left: 3.5rem;
+.aboutmuseum, .problemstate, .users_aud {
+  font-family: 'Baskerville', Garamond, serif;
+  margin: 1rem auto;
+  padding: 0 2.5rem;
+  max-width: 500px;
 }
 
-.rodinoverview, .problemstate, .users_aud {
-  font-family: 'Baskerville';
-  margin-left: 3.5rem;
+h3.studytitle {
+  font-size: 1.8rem;
+  text-align: center;
+  color: #0f1635;
 }
 
 /* RESUME */
@@ -261,13 +273,13 @@ h5 {
 }
 
 ul.resumelist {
-  font-family: 'baskerville';
+  font-family: 'Baskerville', Garamond, serif;
   padding-left: 4.2rem;
   margin: 0.5rem;
 }
 
 p.resume, p.me_para {
-  font-family: 'baskerville';
+  font-family: 'Baskerville', Garamond, serif;
   margin: 0.5rem;
   padding-left: 2rem;
 }
@@ -290,7 +302,7 @@ h3.download {
 
 h3.aboutme {
   color: #393E54;
-  font-family: 'Josefin_Sans';
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
   margin: 1.5rem;
   padding-left: 0.5rem;
   font-size: 2.5rem;
