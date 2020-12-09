@@ -39,7 +39,7 @@
 
 body {
   background-color: #faf8f7;
-  margin: 0;
+  margin: 0 0 9rem 0;
 }
 
 .header {
@@ -103,7 +103,7 @@ h3 {
   font-size: 1.6rem;
 }
 
-/* INDEX */
+/* HOME */
 
 .headerhome {
   margin: 2rem 0;
@@ -139,7 +139,7 @@ h2.greeting {
   color: #6A5B58;
   font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-size: 130%;
-  margin: 5rem 5rem 9rem 5rem;
+  margin: 5rem 5rem 0 5rem;
   max-width: 50rem;
 }
 
@@ -190,10 +190,6 @@ h3.cstitles, h3.awtitles {
   margin: 0.7rem;
 }
 
-#teadoimage {
-  margin-bottom: 9rem;
-}
-
 hr.solid {
   border-top: 1px solid #474c63;
   max-width: 375px;
@@ -218,10 +214,6 @@ hr.solid {
   text-align: center;
 }
 
-.last {
-  margin-bottom: 9rem;
-}
-
 .back {
   font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-size: 90%;
@@ -232,6 +224,18 @@ hr.solid {
 a.back:link {color: #454d70;}
 a.back:visited {color: #454d70;}
 a.back:hover {color: #7D4E4B;}
+
+.top {
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
+  font-size: 90%;
+  float: right;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+a.top:link {color: #454d70;}
+a.top:visited {color: #454d70;}
+a.top:hover {color: #7D4E4B;}
 
 h5 {
   font-family: 'Josefin_Sans', Helvetica, sans-serif;
@@ -245,17 +249,25 @@ h5.subtitle {
   padding: 1rem;
 }
 
-.cardsort, .finaluirodin {
+h6.wpsubtitle {
+  font-family: 'Josefin_Sans', Helvetica, sans-serif;
+  font-size: 90%;
+  font-weight: bold;
+  color: #6d7183;
+  text-align: center;
+}
+
+.wireframe, .cardsort, .color_type, .finaluirodin {
   width: 325px; 
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.aboutmuseum, .problemstate, .users_aud {
+.aboutmuseum, .motive, .goal, .workprocess, .rodinwireframe, .rodincardsorting, .rodincolortype {
   font-family: 'Baskerville', Garamond, serif;
   margin: 1rem auto;
-  padding: 0 2.5rem;
+  padding: 1rem 2.5rem;
   max-width: 500px;
 }
 
@@ -309,7 +321,6 @@ h3.aboutme {
 }
 
 .aboutmebody {
-  margin-bottom: 9rem;
   margin: 0 auto;
   max-width: 500px;
 }
@@ -321,7 +332,7 @@ h3.aboutme {
 }
 
 .meparagraphs {
-  margin: 0 auto 9rem;
+  margin: 0 auto;
 }
 
 .me_para {
