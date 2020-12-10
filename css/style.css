@@ -221,20 +221,21 @@ hr.solid {
   font-weight: bold;
 }
 
-a.back:link {color: #454d70;}
-a.back:visited {color: #454d70;}
+a.back:link {color: #767b91;}
+a.back:visited {color: #767b91;}
 a.back:hover {color: #7D4E4B;}
 
 .top {
   font-family: 'Josefin_Sans', Helvetica, sans-serif;
   font-size: 90%;
-  float: right;
   font-weight: bold;
   padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
-a.top:link {color: #454d70;}
-a.top:visited {color: #454d70;}
+a.top:link {color: #767b91;}
+a.top:visited {color: #767b91;}
 a.top:hover {color: #7D4E4B;}
 
 h5 {
